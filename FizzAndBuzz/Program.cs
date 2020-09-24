@@ -8,7 +8,7 @@ namespace FizzAndBuzz
         static void Main(string[] args)
         {
             NumberProcess numberProcess = new NumberProcess();
-            string result = numberProcess.ShowFizzBuzzNumbers(120);
+            string result = numberProcess.ShowFizzBuzzNumbers(50);
             Console.WriteLine(result);
             Console.ReadKey();
         }
