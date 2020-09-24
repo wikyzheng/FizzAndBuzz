@@ -17,15 +17,15 @@ namespace FizzAndBuzz
             {
                 string numStr = i.ToString();
 
-                if (i % 3 == 0 || numStr.Contains("3"))
+                if (i % 3 == 0 || i.ToString().Contains("3"))
                 {
                     numStr = "Fizz";
                 }
-                if (i % 5 == 0 || numStr.Contains("5"))
+                if (i % 5 == 0 || i.ToString().Contains("5"))
                 {
                     numStr = "Buzz";
                 }
-                if ((i % 3 == 0 && i % 5 == 0) || (numStr.Contains("3") && numStr.Contains("5")))
+                if ((i % 3 == 0 && i % 5 == 0) || (i.ToString().Contains("3") && i.ToString().Contains("5")))
                 {
                     numStr = "FizzBuzz";
                 }
