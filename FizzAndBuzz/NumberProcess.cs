@@ -20,20 +20,14 @@ namespace FizzAndBuzz
                 if (i % 3 == 0 || numStr.Contains("3"))
                 {
                     numStr = "Fizz";
-                    numberStrs.Add(numStr);
-                    continue;
                 }
                 if (i % 5 == 0 || numStr.Contains("5"))
                 {
                     numStr = "Buzz";
-                    numberStrs.Add(numStr);
-                    continue;
                 }
                 if ((i % 3 == 0 && i % 5 == 0) || (numStr.Contains("3") && numStr.Contains("5")))
                 {
                     numStr = "FizzBuzz";
-                    numberStrs.Add(numStr);
-                    continue;
                 }
                 numberStrs.Add(numStr);
             }
